@@ -1,0 +1,39 @@
+.title{
+	width: 150px;
+}
+.vacio{
+	border-bottom: 2px solid black; 
+	width: 70px;
+	height:5px;
+}
+.bloque{
+	float: left;
+	margin: 8px;
+}
+.caja{
+    position: relative;
+ }
+.clear{
+	clear: both;
+}
+.hijo{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	margin-bottom: 5px;
+	color: white;
+}
+.caja .hijo{
+	position: absolute;
+	width: 99%;
+    height: 98%;
+    background: rgba(0, 0, 0, .6);
+    color: #FFF;
+}
+.hijo2{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	margin-bottom: 5px;
+	color: white;
+}
